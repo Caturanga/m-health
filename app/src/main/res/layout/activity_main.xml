@@ -16,7 +16,7 @@
 
         <com.github.mikephil.charting.charts.PieChart
             android:id="@+id/piechart1"
-            android:layout_width="150dp"
+            android:layout_width="151dp"
             android:layout_height="wrap_content">
 
         </com.github.mikephil.charting.charts.PieChart>
