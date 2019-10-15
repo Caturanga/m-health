@@ -4,27 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Chart">
 
     <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
+
+
 
         <com.github.mikephil.charting.charts.PieChart
             android:id="@+id/piechart"
             android:layout_width="0dp"
             android:layout_height="250dp"
             android:layout_weight="1">
-
         </com.github.mikephil.charting.charts.PieChart>
-
-        <include layout="@layout/activity_chart"
-            android:id="@+id/chart"
-            android:layout_width="0dp"
-            android:layout_height="250dp"
-            android:layout_weight="1">
-        </include>
-
 
     </LinearLayout>
 

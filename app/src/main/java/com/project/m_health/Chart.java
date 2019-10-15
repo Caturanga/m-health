@@ -13,9 +13,9 @@ import com.github.mikephil.charting.utils.ColorTemplate;
 
 import java.util.ArrayList;
 
-public class chart extends AppCompatActivity {
+public class Chart extends AppCompatActivity {
 
-    PieChart pieChart, pieChart1;
+    PieChart pieChart;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,8 +58,5 @@ public class chart extends AppCompatActivity {
         pieChart.setData(data);
 
 
-
-
     }
-
 }
