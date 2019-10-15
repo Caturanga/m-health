@@ -6,9 +6,29 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-   <com.github.mikephil.charting.charts.PieChart
-       android:layout_width="match_parent"
-       android:layout_height="match_parent"
-       android:id="@+id/piechart"></com.github.mikephil.charting.charts.PieChart>
+    <LinearLayout
+
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/piechart1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content">
+
+        </com.github.mikephil.charting.charts.PieChart>
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/piechart"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content">
+
+        </com.github.mikephil.charting.charts.PieChart>
+
+    </LinearLayout>
+
 
 </RelativeLayout>
