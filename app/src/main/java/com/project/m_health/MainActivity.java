@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         pieChart = (PieChart) findViewById(R.id.piechart);
-        pieChart = (PieChart) findViewById(R.id.piechart1);
+
 
         pieChart.setUsePercentValues(true);
         pieChart.getDescription().setEnabled(false);
@@ -57,42 +57,6 @@ public class MainActivity extends AppCompatActivity {
 
         pieChart.setData(data);
 
-
-
-        //PIED DATA 1
-        pieChart1.setUsePercentValues(true);
-        pieChart1.getDescription().setEnabled(false);
-        pieChart1.setExtraOffsets(5, 10, 5, 5);
-
-        pieChart1.setDragDecelerationFrictionCoef(0.95f);
-
-        pieChart1.setDrawHoleEnabled(true);
-        pieChart1.setHoleColor(Color.WHITE);
-        pieChart1.setTransparentCircleRadius(61f);
-        ArrayList<PieEntry> yValues1 = new ArrayList<>();
-
-        yValues1.add(new PieEntry(34f, "Bangladesh"));
-        yValues1.add(new PieEntry(23f, "USA"));
-        yValues1.add(new PieEntry(14f, "UK"));
-        yValues1.add(new PieEntry(35, "India"));
-        yValues1.add(new PieEntry(40, "Russia"));
-        yValues1.add(new PieEntry(23, "Japan"));
-
-
-        pieChart.animateY(1000, Easing.EasingOption.EaseInOutCubic);
-
-        pieChart.animateY(1000, Easing.EasingOption.EaseInOutCubic);
-
-        PieDataSet dataSet1 = new PieDataSet(yValues, "Countries");
-        dataSet1.setSliceSpace(3f);
-        dataSet1.setSelectionShift(5f);
-        dataSet1.setColors(ColorTemplate.JOYFUL_COLORS);
-
-        PieData data1 = new PieData((dataSet1));
-        data1.setValueTextSize(10f);
-        data1.setValueTextColor(Color.YELLOW);
-
-        pieChart.setData(data1);
 
 
 

@@ -13,12 +13,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
         android:orientation="vertical">
 
        <TextView
-           android:text="Login"
+           android:text="Facebook"
+           android:textColor="@color/mhealth"
            android:textSize="36sp"
            android:shadowColor="#006AC0"
            android:fontFamily="@font/neosansboldtr"
@@ -32,7 +33,7 @@
             android:id="@+id/textInputLayoutEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="24dp"
             app:errorEnabled="true">
 
             <android.support.design.widget.TextInputEditText
@@ -47,10 +48,10 @@
             android:id="@+id/textInputLayoutPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="4dp"
             app:errorEnabled="true"
             app:passwordToggleEnabled="true"
-            app:passwordToggleTint="@color/colorAccent">
+            app:passwordToggleTint="#494949">
 
             <android.support.design.widget.TextInputEditText
                 android:id="@+id/editTextPassword"
