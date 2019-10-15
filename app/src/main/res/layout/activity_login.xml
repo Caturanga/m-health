@@ -18,7 +18,7 @@
         android:orientation="vertical">
 
        <TextView
-           android:text="Facebook"
+           android:text="Login"
            android:textColor="@color/mhealth"
            android:textSize="36sp"
            android:shadowColor="#006AC0"
