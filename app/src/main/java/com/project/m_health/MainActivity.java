@@ -17,7 +17,6 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
 
     PieChart pieChart, pieChart1;
-    View includeLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         pieChart = (PieChart) findViewById(R.id.piechart);
-        View includeLayout = findViewById(R.id.chart);
 
         pieChart.setUsePercentValues(true);
         pieChart.getDescription().setEnabled(false);
